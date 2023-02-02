@@ -1064,3 +1064,55 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.02.02-16.59.59:711][ 77]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
 [2023.02.02-17.00.12:844][642]LogSlate: Window 'Source Control Login' being destroyed
 [2023.02.02-17.02.03:168][279]LogDerivedDataCache: C:/Users/bvill/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:16.409 and deleted 0 files with total size 0 MiB. Scanned 8685 files in 8595 folders with total size 307 MiB.
+[2023.02.02-17.04.30:297][771]LogSlate: Took 0.005061 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.02.02-17.04.32:155][868]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2023.02.02-17.04.32:160][868]LogContentBrowser: Creating deferred item: NewMaterial
+[2023.02.02-17.04.32:173][869]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2023.02.02-17.04.34:655][ 17]LogContentBrowser: Attempting asset rename: NewMaterial -> M_Tesdt
+[2023.02.02-17.04.34:758][ 17]LogContentBrowser: End creating deferred item NewMaterial
+[2023.02.02-17.04.35:821][ 79]LogShaderCompilers: Display: ================================================
+[2023.02.02-17.04.35:821][ 79]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.02.02-17.04.35:821][ 79]LogShaderCompilers: Display: Total job queries 108, among them cache hits 9 (8.33%)
+[2023.02.02-17.04.35:821][ 79]LogShaderCompilers: Display: Tracking 92 distinct input hashes that result in 80 distinct outputs (86.96%)
+[2023.02.02-17.04.35:821][ 79]LogShaderCompilers: Display: RAM used: 0.82 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.05%
+[2023.02.02-17.04.35:821][ 79]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.02.02-17.04.35:821][ 79]LogShaderCompilers: Display: Shaders Compiled: 92
+[2023.02.02-17.04.35:821][ 79]LogShaderCompilers: Display: Jobs assigned 99, completed 92 (92.93%)
+[2023.02.02-17.04.35:821][ 79]LogShaderCompilers: Display: Average time worker was idle: 39.68 s
+[2023.02.02-17.04.35:821][ 79]LogShaderCompilers: Display: Time job spent in pending queue: average 4.94 s, longest 14.77 s
+[2023.02.02-17.04.35:821][ 79]LogShaderCompilers: Display: Job execution time: average 4.75 s, max 12.11 s
+[2023.02.02-17.04.35:821][ 79]LogShaderCompilers: Display: Job life time (pending + execution): average 10.06 s, max 17.71
+[2023.02.02-17.04.35:821][ 79]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 19.09 s
+[2023.02.02-17.04.35:821][ 79]LogShaderCompilers: Display: Jobs were issued in 61 batches (only local compilation was used), average 1.62 jobs/batch
+[2023.02.02-17.04.35:821][ 79]LogShaderCompilers: Display: Average processing rate: 4.82 jobs/sec
+[2023.02.02-17.04.35:821][ 79]LogShaderCompilers: Display: Total thread time: 116.81 s
+[2023.02.02-17.04.35:822][ 79]LogShaderCompilers: Display: Total thread preprocess time: 5.30 s
+[2023.02.02-17.04.35:822][ 79]LogShaderCompilers: Display: Percentage time preprocessing: 4.54%
+[2023.02.02-17.04.35:822][ 79]LogShaderCompilers: Display: Effective parallelization: 6.12 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.02.02-17.04.35:822][ 79]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.02.02-17.04.35:822][ 79]LogShaderCompilers: Display:                                   FCloudRenderViewPS011false (compiled    1 times, average 2.13 sec, max 2.13 sec, min 2.13 sec)
+[2023.02.02-17.04.35:822][ 79]LogShaderCompilers: Display:                                   FCloudRenderViewPS010false (compiled    1 times, average 2.02 sec, max 2.02 sec, min 2.02 sec)
+[2023.02.02-17.04.35:822][ 79]LogShaderCompilers: Display:                                   FCloudRenderViewPS111false (compiled    1 times, average 1.95 sec, max 1.95 sec, min 1.95 sec)
+[2023.02.02-17.04.35:822][ 79]LogShaderCompilers: Display:                                   FCloudRenderViewPS110false (compiled    1 times, average 1.82 sec, max 1.82 sec, min 1.82 sec)
+[2023.02.02-17.04.35:822][ 79]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   17 times, average 1.74 sec, max 2.21 sec, min 1.33 sec)
+[2023.02.02-17.04.35:822][ 79]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.02.02-17.04.35:822][ 79]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 25.32% of total time (compiled   17 times, average 1.74 sec, max 2.21 sec, min 1.33 sec)
+[2023.02.02-17.04.35:822][ 79]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 11.23% of total time (compiled    9 times, average 1.46 sec, max 1.99 sec, min 1.13 sec)
+[2023.02.02-17.04.35:822][ 79]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 9.12% of total time (compiled    9 times, average 1.18 sec, max 1.74 sec, min 1.05 sec)
+[2023.02.02-17.04.35:822][ 79]LogShaderCompilers: Display:                                                 FLumenCardVS - 5.90% of total time (compiled    6 times, average 1.15 sec, max 1.60 sec, min 0.91 sec)
+[2023.02.02-17.04.35:822][ 79]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 5.29% of total time (compiled    7 times, average 0.88 sec, max 1.27 sec, min 0.63 sec)
+[2023.02.02-17.04.35:822][ 79]LogShaderCompilers: Display: ================================================
+[2023.02.02-17.04.41:781][432]LogStatusBar: Looking status bar with open content browser drawer...
+[2023.02.02-17.04.41:781][432]LogStatusBar: Using status bar: LevelEditor.StatusBar to dock content browser
+[2023.02.02-17.04.41:807][432]LogViewport: Scene viewport resized to 1858x449, mode Windowed.
+[2023.02.02-17.04.48:555][831]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2023.02.02-17.04.48:663][831]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.02-17.04.48:721][831]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_Tesdt" FILE="D:/Git/UnrealEngineGitTest/UnrealEngineGit/UnrealEngineTestGitU/Content/M_Tesdt.uasset" SILENT=true
+[2023.02.02-17.04.48:728][831]LogPackageLocalizationCache: Processed 43 localized package path(s) for 1 prioritized culture(s) in 0.005631 seconds
+[2023.02.02-17.04.48:728][831]LogSerialization: UsePackageTrailer: 'true'
+[2023.02.02-17.04.48:735][831]LogSavePackage: Moving output files for package: /Game/M_Tesdt
+[2023.02.02-17.04.48:735][831]LogSavePackage: Moving 'D:/Git/UnrealEngineGitTest/UnrealEngineGit/UnrealEngineTestGitU/Saved/M_Tesdt2060D606446F88D565613DB3498C9E9C.tmp' to 'D:/Git/UnrealEngineGitTest/UnrealEngineGit/UnrealEngineTestGitU/Content/M_Tesdt.uasset'
+[2023.02.02-17.04.48:877][831]LogFileHelpers: InternalPromptForCheckoutAndSave took 214 ms
+[2023.02.02-17.04.48:880][831]AssetCheck: New page: Asset Save: M_Tesdt
+[2023.02.02-17.04.48:881][831]LogContentValidation: Display: Validating /Script/Engine.Material /Game/M_Tesdt.M_Tesdt
+[2023.02.02-17.04.58:867][251]LogSlate: Window 'Revert Files' being destroyed
