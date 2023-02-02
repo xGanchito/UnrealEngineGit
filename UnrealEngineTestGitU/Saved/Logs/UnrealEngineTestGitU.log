@@ -1063,3 +1063,4 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.02.02-16.59.59:498][ 77]LogViewport: Scene viewport resized to 1858x902, mode Windowed.
 [2023.02.02-16.59.59:711][ 77]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
 [2023.02.02-17.00.12:844][642]LogSlate: Window 'Source Control Login' being destroyed
+[2023.02.02-17.02.03:168][279]LogDerivedDataCache: C:/Users/bvill/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:16.409 and deleted 0 files with total size 0 MiB. Scanned 8685 files in 8595 folders with total size 307 MiB.
